@@ -1,0 +1,46 @@
+Nom Prénom : Amine ELASRI
+
+URL du Compte github : https://github.com/Aminelas
+
+Nom du projet : mps-youtube
+
+Description du processus
+
+        * J'ai d'abords procédé à la recherche d'un projet sur github sous une licence libre
+        * Puis j'ai parcouru certains fichiers, des issues et PR pour répondre aux questions du plan ci dessous pour le travail alternatif.
+
+1)Projet libre
+
+Mon repository d'étude est https://github.com/mps-youtube/mps-youtube .C'est un projet libre en ce sens qu'il est sous la licence GPLv3. Cette licence est présentée sur le site : https://faq.adullact.org/juridique/31-presentation-de-la-licence-gpl-v3 .
+
+
+2)Histoire
+
+mps-youtube est un programme écrit en python sous licence Gplv3, basé sur mps, un programme de recherche sur terminal, de streaming et de téléchargement de musique. En utilisant youtube comme source, on peut regarder en streaming des vidéos et audios ou les télécharger. C'est la bibliothèque 'PAFY' qui s'occupe de l’intérface avec Youtube. Par défaut, c'est mplayer qui est paramétré pour la lecture des vidéos. D'autres fonctionnalités sont proposées comme l'affichage des commentaires youtube et le fait de faire des matchings entre les titres tapés sur le terminal (où d’éventuelles erreurs peuvent exister) et les titres originaux.
+
+    
+3)Gouvernance
+
+Le mainteneur du programme est Johannes Löthberg. Il est signé par Bart?omiej Piotrowski et la date de signature et de lancement était le 26-12-2016 à 09:54.  
+
+
+4)Description et analyse du mode collaboratif
+ 
+    4.1) Contributions réussies : Exemple 1
+
+Le 3 septembre 2017, après avoir eu une contribution échouée et après avoir trouvé une solution plus simple, kraetzin a ouvert une nouvelle discussion pour essayer d'élaborer la solution qu'est l'utilisation du format m3u pour les playlists. Après discussion, ids1024 a accepté et mergé sa contribution.
+ Le lien du PR Merged : https://github.com/mps-youtube/mps-youtube/pull/682
+      
+
+
+    4.2) Contributions réussies : Exemple 2
+
+Le 25 septembre 2017, kraetzin a ajouté une contribution pour fixer la commande rm dans le but de supprimer une chanson correctement de la playlist. cette contribution a été mergé par ids1024.
+ Le lien du PR Merged : https://github.com/mps-youtube/mps-youtube/pull/695
+
+
+
+    4.2) Contributions échouées : Exemple 1
+
+Le 2 septembre 2017, kraetzin a ajouté une exportation de l'historique 'history export' pour pouvoir exporter l'historique des chansons 'song history' dans un fichier nommé 'play_history.txt'. Le but est de faciliter le langage pour que cela soit facilement lu par l'utilisateur. La contribution a été refusée puisqu'il existe une façon plus simple de résoudre le problème en utilisant m3u.
+ Le lien du PR Merged : https://github.com/mps-youtube/mps-youtube/pull/681
